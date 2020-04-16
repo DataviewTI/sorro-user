@@ -1,12 +1,12 @@
 <?php
-namespace Dataview\SorroUser;
+namespace Dataview\User;
 
 use Dataview\Sorro\SorroController;
 use Illuminate\Http\Response;
 
 use Dataview\Sorro\User;
 use App\Http\Requests;
-use Dataview\SorroUser\UserRequest;
+use Dataview\User\UserRequest;
 
 class UserController extends SorroController{
 

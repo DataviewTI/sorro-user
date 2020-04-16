@@ -1,5 +1,5 @@
 <?php
-namespace Dataview\SorroUser;
+namespace Dataview\User;
 
 use Illuminate\Database\Seeder;
 use Dataview\Sorro\Service;

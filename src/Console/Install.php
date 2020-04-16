@@ -1,15 +1,15 @@
 <?php
-namespace Dataview\IOEntity\Console;
-use Dataview\Sorro\Console\SorroUserInstallCmd;
-use Dataview\SorroUser\SorroUserServiceProvider;
-use Dataview\SorroUser\UserSeeder;
+namespace Dataview\User\Console;
+use Dataview\Sorro\Console\SorroServiceInstallCmd;
+use Dataview\User\UserServiceProvider;
+use Dataview\User\UserSeeder;
 
 class Install extends SorroServiceInstallCmd
 {
   public function __construct(){
     parent::__construct([
       "service"=>"user",
-      "provider"=> SorroUserServiceProvider::class,
+      "provider"=> UserServiceProvider::class,
       "seeder"=>UserSeeder::class,
     ]);
   }
