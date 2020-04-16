@@ -4,7 +4,7 @@ use Dataview\Sorro\Console\SorroUserInstallCmd;
 use Dataview\SorroUser\SorroUserServiceProvider;
 use Dataview\SorroUser\UserSeeder;
 
-class Install extends IOServiceInstallCmd
+class Install extends SorroServiceInstallCmd
 {
   public function __construct(){
     parent::__construct([
