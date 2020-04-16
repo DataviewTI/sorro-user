@@ -16,7 +16,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "\\Dataview\\User\\UserServiceProvider"
+        "\\Dataview\\SorroUser\\UserServiceProvider"
       ]
     }
   }

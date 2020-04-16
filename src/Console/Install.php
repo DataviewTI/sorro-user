@@ -1,8 +1,8 @@
 <?php
-namespace Dataview\User\Console;
+namespace Dataview\SorroUser\Console;
 use Dataview\Sorro\Console\SorroServiceInstallCmd;
-use Dataview\User\UserServiceProvider;
-use Dataview\User\UserSeeder;
+use Dataview\SorroUser\UserServiceProvider;
+use Dataview\SorroUser\UserSeeder;
 
 class Install extends SorroServiceInstallCmd
 {

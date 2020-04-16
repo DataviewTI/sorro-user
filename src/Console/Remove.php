@@ -1,9 +1,9 @@
 <?php
-namespace Dataview\User\Console;
+namespace Dataview\SorroUser\Console;
 
 use Dataview\Sorro\Console\UserRemoveCmd;
 // use Dataview\IntranetOne\Sorro;
-use Dataview\User\UserServiceProvider;
+use Dataview\SorroUser\UserServiceProvider;
 
 
 class Remove extends SorroServiceRemoveCmd

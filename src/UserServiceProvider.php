@@ -1,6 +1,6 @@
 <?php
 
-namespace Dataview\User;
+namespace Dataview\SorroUser;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -25,6 +25,6 @@ class UserServiceProvider extends ServiceProvider
       $this->app['router']->group(['namespace' => 'dataview\sorrouser'], function () {
         include __DIR__.'/routes/web.php';
       });
-      $this->app->make('Dataview\User\UserController');
+      $this->app->make('Dataview\SorroUser\UserController');
     }
 }

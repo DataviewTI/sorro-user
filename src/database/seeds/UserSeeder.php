@@ -1,8 +1,8 @@
 <?php
-namespace Dataview\User;
+namespace Dataview\SorroUser;
 
 use Illuminate\Database\Seeder;
-use Dataview\Sorro\Service;
+// use Dataview\Sorro\Service;
 
 class UserSeeder extends Seeder
 {
