@@ -26,6 +26,5 @@ class SorroUserServiceProvider extends ServiceProvider
         include __DIR__.'/routes/web.php';
       });
       $this->app->make('Dataview\SorroUser\UserController');
-      $this->app->make('Dataview\SorroUser\UserRequest');
     }
 }
