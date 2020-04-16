@@ -1,0 +1,23 @@
+{
+  "name": "dataview/sorro-user",
+  "description": "sorro user`s service for Sorro Dashboard",
+  "authors": [
+    {
+      "name": "mdisconzi",
+      "email": "marcelo@dataview.com.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Dataview\\SorroUser\\": "src/"
+    }
+  },
+  "require": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "\\Dataview\\SorroUser\\SorroUserServiceProvider"
+      ]
+    }
+  }
+}
